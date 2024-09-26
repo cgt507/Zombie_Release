@@ -26,14 +26,14 @@ If it doesn't automatically launch your VR software, maybe try doing that yourse
 * To use weapon attachments, grab them using the TRIGGER of an empty hand and continue holding the trigger as you place the attachment onto the weapon. The suppressor goes on the end, sights go in the sight place, the laser goes somewhere near the front of the barrel, and foregrips go where it makes sense. Attachments can be removed in the same manner. Occasionally attaching a sight will do a weird collision things and bump the player several feet then attach the sight sideways. Idk what's going on there. I'll look into it one day. It's not that common though. If it happens, just take it off and put it back on and never speak of the incident.
 
 ### Settings: 
-* The video settings should start out on the lowest. I recommend going to the video settings and turning them up to at least medium. The shadow quality has the biggest effect due to all of the fog. The others don't really seem to do a whole lot. 
+* The video settings should start out at medium. I recommend keeping them at at least medium or it will look like shit. The shadow quality has the biggest effect due to all of the fog. The others don't really seem to do a whole lot. Resolution scaling bad. Probably don't touch that... Might just remove
 
 * The audio and input settings pages exist, but are not currently hooked up to whatever the default was, so messing with those may cause (more than the expected amount of) wonkiness.
 
 ## Gameplay notes:
 
 ### Menu things
-* The menu is currently absolutely massive. Get over it until I fix it. Should be done in the next release.
+* ~~The menu is currently absolutely massive. Get over it until I fix it. Should be done in the next release.~~ Fixed it. I think. Sizing changes randomly for some reason sometimes.
 * When you die, you need to restart the game. Currently it completely destroys the player entity, so your controls to access the menu are also destroyed. If the camera just starts floating in the sky and you can no longer do anything, you've died. Git Gud. I'll make a proper death that allows you to restart one day.
 
 ### Weapon things
@@ -42,10 +42,10 @@ If it doesn't automatically launch your VR software, maybe try doing that yourse
 * Guns of the same class share ammo, so all assault rifles use AR ammo, all pistols use pistol ammo, and so on. 
 * Ammo boxes with a sparkle effect and a blue beam coming from space will spawn randomly after every round. If you're low on ammo and cannot afford the random box, or just like your gun, you can hunt these down. 3 spawn at the starting area at the beginning of the game. Moving over the ammo boxes will collect them, and it will replenish some ammo for any gun you are holding as well as the guns in your holsters. The amount of ammo given varies by gun type.
 * The shotgun is wonky AF. Deal with it. It needs a completely different reload system from everything else and it was hard enough to make easy reloading work for all the other guns, so I never got around to the shotgun.
-* You have a knife. Use at your own risk. It will kill zombies in 1 hit, but must be moving at a minimum speed before it will do any damage, so you have to actually swing it. Odds are the zombies will kill you first. The knife exists roughly in front of your right hip and will return there when it is dropped. It's kinda neat, and again, I spent way too much time on it for it to be so completely useless.
+* You have a knife. Use at your own risk. It will kill zombies in 1 hit, but must be moving at a minimum speed before it will do any damage, so you have to actually swing it. Odds are the zombies will kill you first. The knife exists roughly in front of your right hip and will return there when it is dropped. It's kinda neat and I spent way too much time on it for it to be so completely useless.
 
 ### Random things
 * I spent WAY too much time working on the highlighting system that draws a yellow highlight outline around any dropped weapons or attachments as well as the last few zombies each round. For the weapons, it will highlight only parts of the weapon you can see. You will not be able to see dropped weapons through objects. For the zombies, it is exactly the opposite. You can only see the outline of obscured zombies. This is mostly to identify zombies that are stuck somewhere or something so that you can progress the game. It will not help you see zombies that are just sneaky and planning to murder you from behind.
-* Along that note, I fucked up some of the map geometry around the house with the big fancy driveway near the starting area, so zombies get stuck there quite a bit.
+* ~~Along that note, I fucked up some of the map geometry around the house with the big fancy driveway near the starting area, so zombies get stuck there quite a bit.~~ Fixed it
 * Garage doors are weird. I didn't make them. I take no responsibililty for their behavior.
-* you HUD shows your current health in the top left, your money in the bottom left, and the round number in the bottom right. Changing resolution scaling may make this blurry or unreadable.
+* Your HUD shows your current health in the top left, your money in the bottom left, and the round number in the bottom right. Changing resolution scaling may make this blurry or unreadable. Honestly, the resolution scaling setting just causes a lot of problems... Probably don't touch that...
