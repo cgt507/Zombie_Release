@@ -1,6 +1,15 @@
 ## Goal: 
 Shoot the zombies; don't die.
 
+## How to Play
+
+### Install
+Download zip of repo
+Unzip repo
+Double click exe
+Play
+If it doesn't automatically launch your VR software, maybe try doing that yourself. Don't be lazy.
+
 ### Controls:
 * Movement is done with the left thumbstick. When you move, there is a blinder effect that happens to keep oli from getting motion sick. I will make this configurable in the options one day. Snap turning is currently not set up, but probably will be at some point. For right now, you gotta do the work yourself.
 
