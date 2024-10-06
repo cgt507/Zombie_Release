@@ -26,14 +26,14 @@ If it doesn't automatically launch your VR software, maybe try doing that yourse
 * To use weapon attachments, grab them using the TRIGGER of an empty hand and continue holding the trigger as you place the attachment onto the weapon. The suppressor goes on the end, sights go in the sight place, the laser goes somewhere near the front of the barrel, and foregrips go where it makes sense. Attachments can be removed in the same manner. Occasionally attaching a sight will do a weird collision things and bump the player several feet then attach the sight sideways. Idk what's going on there. I'll look into it one day. It's not that common though. If it happens, just take it off and put it back on and never speak of the incident.
 
 ### Settings: 
-* The video settings exist, but don't do a whole lot. Nuking all the settings to low except shadows can save a tiny bit of vram with no major noticeable effects. The shadow quality has the biggest effect due to all of the fog, and should be kept at high or epic unless you want crappy fog. You don't want crappy fog.
+* ~~The video settings exist, but don't do a whole lot. Nuking all the settings to low except shadows can save a tiny bit of vram with no major noticeable effects. The shadow quality has the biggest effect due to all of the fog, and should be kept at high or epic unless you want crappy fog. You don't want crappy fog.~~ I completely reworked the graphics and the settings, so most of them do something now. A few of the settings still don't do much, but for the most part they work. Play with them and get a combo that works for you. The ones that generally have the biggest impact are the shadow quality (which may also toggle the volumetric fog at the bottom), volumetric fog, post processing quality, and global illumination quality, and foliage quality. 
   
 * The audio and input settings pages exist, but are not currently hooked up to whatever the default was, so messing with those may cause (more than the expected amount of) wonkiness.
 
 ## Gameplay notes:
 
 ### Menu things
-* ~~The menu is currently absolutely massive. Get over it until I fix it. Should be done in the next release.~~ Fixed it. I think. Sizing changes randomly for some reason sometimes.
+* ~~The menu is currently absolutely massive. Get over it until I fix it. Should be done in the next release.~~ Fixed it.
 * When you die, you need to restart the game. Currently it completely destroys the player entity, so your controls to access the menu are also destroyed. If the camera just starts floating in the sky and you can no longer do anything, you've died. Git Gud. I'll make a proper death that allows you to restart one day.
 
 ### Weapon things
@@ -49,3 +49,4 @@ If it doesn't automatically launch your VR software, maybe try doing that yourse
 * ~~Along that note, I fucked up some of the map geometry around the house with the big fancy driveway near the starting area, so zombies get stuck there quite a bit.~~ Fixed it
 * Garage doors are weird. I didn't make them. I take no responsibililty for their behavior.
 * Your HUD shows your current health in the top left, your money in the bottom left, and the round number in the bottom right.
+* Sometime when you release the second had grip the magazine drops out of the gun. This is purely graphical and I will fix it eventually. For right now, enjoy your imaginary bullets.
