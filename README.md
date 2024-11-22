@@ -5,10 +5,15 @@ Shoot the zombies; don't die.
 
 ### Install
 Download from my google drive: https://drive.google.com/file/d/1ESz5FVUZe8Ux3ZBdHZ8VucNXaHoZ_WwF/view?usp=drive_link
- (Due to the size of the game, I have stopped paying for additional storage on github, so the repo can no longer fit the game build. Downloading from my drive should be faster anyway)
+
+(Due to the size of the game, I have stopped paying for additional storage on github, so the repo can no longer fit the game build. Downloading from my drive should be faster anyway)
+
 Unzip repo
+
 Double click exe
+
 Play
+
 If it doesn't automatically launch your VR software, maybe try doing that yourself. Don't be lazy.
 
 ### Controls:
